@@ -22,6 +22,19 @@
 
 > 최대 개체 수 설정을 변경한 뒤 기존 물가에 즉시 반영하려면 '적용' 버튼을 눌러 주세요.
 
+## 빌드 방법
+
+1. **.NET 10 SDK**를 설치합니다.
+2. 저장소 루트의 `Build.bat`을 실행합니다.
+3. 빌드가 성공하면 `Assemblies/WaterBodyFishMod.dll`이 생성됩니다.
+
+기본 경로는 다음과 같습니다.
+
+- RimWorld: `Y:\SteamLibrary\steamapps\common\RimWorld`
+- Harmony: `Y:\SteamLibrary\steamapps\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll`
+
+설치 경로가 다르면 `RIMWORLD_DIR`, `HARMONY_DLL` 환경 변수로 경로를 지정할 수 있습니다.
+
 ## 설치 방법
 
 1. 저장소 우측 상단의 **Code → Download ZIP**을 선택해 다운로드합니다.
