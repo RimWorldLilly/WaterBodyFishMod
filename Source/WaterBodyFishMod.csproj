@@ -10,18 +10,20 @@
     <GenerateDependencyFile>false</GenerateDependencyFile>
     <Nullable>disable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
+    <GameDir Condition="'$(GameDir)' == ''">Y:\SteamLibrary\steamapps\common\RimWorld</GameDir>
+    <HarmonyDll Condition="'$(HarmonyDll)' == ''">Y:\SteamLibrary\steamapps\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll</HarmonyDll>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>Y:\SteamLibrary\steamapps\common\RimWorld\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(GameDir)\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>Y:\SteamLibrary\steamapps\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll</HintPath>
+      <HintPath>$(HarmonyDll)</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityStubs">
-      <HintPath>Y:\SteamLibrary\steamapps\common\RimWorld\UnityStubs.dll</HintPath>
+      <HintPath>$(GameDir)\UnityStubs.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
