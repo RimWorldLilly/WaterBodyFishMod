@@ -30,8 +30,8 @@
 
 기본 경로는 다음과 같습니다.
 
-- RimWorld: `Y:\SteamLibrary\steamapps\common\RimWorld`
-- Harmony: `Y:\SteamLibrary\steamapps\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll`
+- RimWorld: `G:\SteamLibrary\steamapps\common\RimWorld`
+- Harmony: `G:\SteamLibrary\steamapps\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll`
 
 설치 경로가 다르면 `RIMWORLD_DIR`, `HARMONY_DLL` 환경 변수로 경로를 지정할 수 있습니다.
 
